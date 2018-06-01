@@ -1,3 +1,39 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://wawan.pro/"
+languageCode = "ru-RU"
+title = "wawan.pro"
+theme = "coder"
+
+[params] # theme parameters
+    author = "Vladimir Kochergin"
+    info = "Full-stack web-developer in PHP and Go. Freelancer"
+    description = "personal blog"
+    keywords = "blog,developer,personal,php,go,freelance"
+
+    # wether you want to hide copyright and credits in the footer
+    hideCredits = false
+    hideCopyright = false
+    
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 4
+    url = "https://github.com/wawan93/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/wawan_2030/"
+[[params.social]]
+    name = "Telegram"
+    weight = 1
+    url = "https://t.me/free_coder"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+
