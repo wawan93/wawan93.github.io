@@ -25,7 +25,7 @@ theme = "coder"
 [[params.social]]
     name = "Telegram"
     weight = 1
-    url = "https://t.me/free_coder"
+    url = "https://wawan.pro/telegram"
 
 # Menu links
 [[menu.main]]

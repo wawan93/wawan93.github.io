@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hugo
+  namespace: wawan-pro-blog
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: hugo
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hugo
+  namespace: wawan-pro-blog
+spec:
+  selector:
+    matchLabels:
+      app: hugo
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: hugo
+    spec:
+      containers:
+        - image: registry.wawan.pro/wawan/blog:latest
+          name: hugo
+          ports:
+          - containerPort: 80
+      imagePullSecrets:
+        - name: regcred

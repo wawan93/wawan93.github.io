@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on wawan.pro</title>
+    <link>https://wawan.pro/posts/</link>
+    <description>Recent content in Posts on wawan.pro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Fri, 01 Jun 2018 19:10:35 +0300</lastBuildDate>
+    
+	<atom:link href="https://wawan.pro/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>https://wawan.pro/posts/hello-world/</link>
+      <pubDate>Fri, 01 Jun 2018 19:10:35 +0300</pubDate>
+      
+      <guid>https://wawan.pro/posts/hello-world/</guid>
+      <description>Привет, мир!
+Я решил завести свой блог и это его первый пост!
+Я буду писать сюда хотя бы раз в неделю о программировании, фрилансе, PHP и Go. Про политику постараюсь не писать)
+Многие пишут, что именно посты в блоге, выступления и обучение помогают гораздо лучше структурировать свои знания и глубже понять то, о чем пишешь. Проверю эту гипотезу на практике.</description>
+    </item>
+    
+  </channel>
+</rss>
