@@ -26,9 +26,9 @@ spec:
         app: hugo
     spec:
       containers:
-        - image: registry.wawan.pro/wawan/blog:latest
+        - image: registry.wawan.pro/wawan93/blog:latest
           name: hugo
           ports:
           - containerPort: 80
       imagePullSecrets:
-        - name: regcred
+        - name: registry.wawan.pro

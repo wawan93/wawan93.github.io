@@ -1,4 +1,4 @@
-REPO=registry.wawan.pro/wawan/blog
+REPO=registry.wawan.pro/wawan93/blog
 
 .PHONY: all hugo docker
 
