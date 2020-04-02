@@ -10,7 +10,8 @@ spec:
   tls:
   - hosts:
     - wawan.pro
-    secretName: letsencrypt-prod
+    - www.wawan.pro
+    secretName: wawan-pro-tls
   rules:
   - host: wawan.pro
     http:
