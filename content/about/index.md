@@ -11,6 +11,12 @@ My name is Kochergin Vladimir.
 
 I'm from *Moscow, Russia*.
 
-I'm _web-developer_ with 5+ years experience.
+I have 5+ years of experience in web development using PHP, MySQL, Laravel, and other frameworks.
 
-![my photo](about/photo.jpg)
+Two years ago, I switched to Go, and I loved it!
+
+My latest commercial Go projects include Telegram chat-bots, APIs, and microservices within high-load systems. I've also developed a couple of open-source packages, which you can see in my Github profile.
+
+I would love to work at startups and create new and ambitious projects.
+
+![my photo](/about/photo.jpg)
