@@ -215,7 +215,7 @@ a:hover {
 #dev_page_content > ul:not(.nav) li,
 #dev_page_content > ol:not(.nav) ul:not(.nav) li,
 #dev_page_content ul.bulleted li {
-  background-image: url(../img/bullet.png?3);
+  background-image: url(../img/bullet.png@3);
   background-repeat: no-repeat;
   background-position: 0px 8px;
   padding-left: 20px;
@@ -732,13 +732,13 @@ a.tl_main_download_link:hover:after {
   margin: -150px 0 0 -152px;
   width: 304px;
   height: 240px;
-  background: url(../img/SiteiOS.jpg?2) 50% 0 no-repeat;
+  background: url(../img/SiteiOS.jpg@2) 50% 0 no-repeat;
 }
 .tl_main_download_image__android {
   margin: -150px 0 0 -152px;
   width: 304px;
   height: 240px;
-  background: url(../img/SiteAndroid.jpg?2) 50% 0 no-repeat;
+  background: url(../img/SiteAndroid.jpg@2) 50% 0 no-repeat;
 }
 
 .tl_main_video_player {
@@ -826,7 +826,7 @@ a.tl_main_download_link:hover:after {
   left: 0;
   right: 0;
   min-width: 804px;
-  background: url(../img/SiteDesktop.jpg?2) 50% 19px no-repeat;
+  background: url(../img/SiteDesktop.jpg@2) 50% 19px no-repeat;
   /*overflow: hidden;*/
 }
 
@@ -2089,7 +2089,7 @@ body.preload .top_lang_select > .dropdown-menu,
   margin: 16px 10px 0;
   width: 14px;
   height: 9px;
-  background: url(/img/rc_icons.png?1) no-repeat -3px -144px;
+  background: url(../img/rc_icons.png@1) no-repeat -3px -144px;
   right: 0;
   top: 0;
 }
@@ -2145,7 +2145,7 @@ body.preload .top_lang_select > .dropdown-menu,
   margin: 16px 10px;
   width: 14px;
   height: 9px;
-  background: url(/img/rc_icons.png?1) no-repeat -3px -144px;
+  background: url(../img/rc_icons.png@1) no-repeat -3px -144px;
   vertical-align: top;
 }
 .form-control-dropdown-list {
@@ -2437,7 +2437,7 @@ body.preload .top_lang_select > .dropdown-menu,
   vertical-align: top;
   margin-right: 11px;
   padding: 0;
-  background: url(/img/rc_icons.png?1) no-repeat;
+  background: url(../img/rc_icons.png@1) no-repeat;
   cursor: pointer;
 }
 .radio-item input.radio + .radio-label:before {
@@ -2592,16 +2592,16 @@ button.dropdown-toggle:active:focus {
   -webkit-filter: brightness(94%);
 }
 .dev_page_widget_thumb_share {
-  background-image: url(/img/Widget_Share.svg);
+  background-image: url(../img/Widget_Share.svg);
 }
 .dev_page_widget_thumb_post {
-  background-image: url(/img/Widget_Post.svg);
+  background-image: url(../img/Widget_Post.svg);
 }
 .dev_page_widget_thumb_login {
-  background-image: url(/img/Widget_Login.svg);
+  background-image: url(../img/Widget_Login.svg);
 }
 .dev_page_widget_thumb_comments {
-  background-image: url(/img/Widget_Comments.svg);
+  background-image: url(../img/Widget_Comments.svg);
 }
 .dev_page_widget_title {
   font-size: 15px;
@@ -3066,7 +3066,7 @@ a.tgme_head_dl_button:active,
 }
 .tgme_icon_arrow {
   display: inline-block;
-  background: url(/img/tgme/Arrow_1x.png) 0 0 no-repeat;
+  background: url(../img/tgme/Arrow_1x.png) 0 0 no-repeat;
   width: 8px;
   height: 12px;
   background-size: 8px 12px;
@@ -3093,28 +3093,28 @@ a.tgme_head_dl_button:active,
   display: inline-block;
   width: 40px;
   height: 39px;
-  background: url(/img/tgme/Web1x.png?1) -2px -38px no-repeat;
+  background: url(../img/tgme/Web1x.png@1) -2px -38px no-repeat;
   background-size: 44px 177px;
 }
 .tgme_icon_group {
   display: inline-block;
   width: 44px;
   height: 28px;
-  background: url(/img/tgme/Web1x.png?1) 0 0 no-repeat;
+  background: url(../img/tgme/Web1x.png@1) 0 0 no-repeat;
   background-size: 44px 177px;
 }
 .tgme_icon_stickers {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: url(/img/tgme/Web1x.png?1) -2px -87px no-repeat;
+  background: url(../img/tgme/Web1x.png@1) -2px -87px no-repeat;
   background-size: 44px 177px;
 }
 .tgme_icon_share {
   display: inline-block;
   width: 44px;
   height: 23px;
-  background: url(/img/tgme/Web1x.png?1) 0 -137px no-repeat;
+  background: url(../img/tgme/Web1x.png@1) 0 -137px no-repeat;
   background-size: 44px 177px;
 }
 .tgme_page_photo {
@@ -3352,7 +3352,7 @@ a.tgme_footer_dl_button:active {
   width: 24px;
   height: 24px;
   margin: -7px 0 -7px 0;
-  background: url(/img/tgme/web_icon.png) 0 0 no-repeat;
+  background: url(../img/tgme/web_icon.png) 0 0 no-repeat;
 }
 .tgme_page_widget_actions .tgme_page_web_action {
   margin-top: 0;
@@ -3397,7 +3397,7 @@ a.tgme_footer_dl_button:active {
   width: 24px;
   height: 24px;
   margin: -7px 7px -7px 0;
-  background: url(/img/tgme/embed_icon.png?1) 0 0 no-repeat;
+  background: url(../img/tgme/embed_icon.png@1) 0 0 no-repeat;
 }
 .embed_opened .tgme_page_embed_btn a.tgme_action_button_new:before {
   background-position: -24px 0;
@@ -3408,7 +3408,7 @@ a.tgme_footer_dl_button:active {
   width: 24px;
   height: 24px;
   margin: -7px 7px -7px 0;
-  background: url(/img/tgme/embed_copy.png) 0 0 no-repeat;
+  background: url(../img/tgme/embed_copy.png) 0 0 no-repeat;
 }
 .embed_opened .tgme_page_embed_btn a.tgme_action_button_new {
   color: #2481cc;
@@ -3578,7 +3578,7 @@ a.tgme_footer_dl_button:active {
 }
 .tlb_blog_logo {
   display: inline-block;
-  background: url(/img/blog/BlogLogo1x.png?1) 0 0 no-repeat;
+  background: url(../img/blog/BlogLogo1x.png@1) 0 0 no-repeat;
   width: 146px;
   height: 20px;
   background-size: 146px 20px;
@@ -3974,7 +3974,7 @@ i.tl_telegram_share_icon {
 }
 
 .td_screenshot_macos {
-  background: url(https://osx.telegram.org/updates/site/artboard.png) 50% 0 no-repeat;
+  background: url(../../osx.telegram.org/updates/site/artboard.png) 50% 0 no-repeat;
   background-size: 420px 280px;
   height: 280px;
 }
@@ -4016,7 +4016,7 @@ i.tl_telegram_share_icon {
     background-size: 6px 11px;
   }
   .tl_main_download_desktop {
-    background-image: url(../img/SiteDesktop_2x.jpg?2);
+    background-image: url(../img/SiteDesktop_2x.jpg@2);
     background-size: 1246px 260px;
   }
 
@@ -4028,66 +4028,66 @@ i.tl_telegram_share_icon {
   }
 
   .tl_main_download_image__android {
-    background-image: url(../img/SiteAndroid_2x.jpg?2);
+    background-image: url(../img/SiteAndroid_2x.jpg@2);
     background-size: 290px 270px;
   }
   .tl_main_download_image__ios {
-    background-image: url(../img/SiteiOS_2x.jpg?2);
+    background-image: url(../img/SiteiOS_2x.jpg@2);
     background-size: 442px 270px;
   }
   .tl_main_download_link_tdesktop {
-    background-image: url(../img/SiteTDesktop_2x.jpg?1);
+    background-image: url(../img/SiteTDesktop_2x.jpg@1);
     background-size: 320px 157px;
   }
 
   #dev_page_content > ul:not(.nav) li,
   #dev_page_content > ol:not(.nav) ul:not(.nav) li {
-    background-image: url(../img/bullet_2x.png?3);
+    background-image: url(../img/bullet_2x.png@3);
     background-size: 7px 7px;
   }
 
   .tgme_icon_arrow {
-    background-image: url(/img/tgme/Arrow_2x.png);
+    background-image: url(../img/tgme/Arrow_2x.png);
   }
   .tgme_icon_user,
   .tgme_icon_group,
   .tgme_icon_stickers,
   .tgme_icon_share {
-    background-image: url(/img/tgme/Web2x.png?1);
+    background-image: url(../img/tgme/Web2x.png@1);
     background-size: 44px 177px;
   }
 
   .tgme_page_widget_actions a.tgme_action_web_button:before {
-    background-image: url(/img/tgme/web_icon_2x.png);
+    background-image: url(../img/tgme/web_icon_2x.png);
     background-size: 24px 24px;
   }
   .tgme_page_embed_btn a.tgme_action_button_new:before {
-    background-image: url(/img/tgme/embed_icon_2x.png?1);
+    background-image: url(../img/tgme/embed_icon_2x.png@1);
     background-size: 48px 24px;
   }
   .tgme_page_copy_action a.tgme_action_button_new:before {
-    background-image: url(/img/tgme/embed_copy_2x.png);
+    background-image: url(../img/tgme/embed_copy_2x.png);
     background-size: 24px 24px;
   }
 
   .tlb_blog_logo {
-    background-image: url(/img/blog/BlogLogo2x.png?1);
+    background-image: url(../img/blog/BlogLogo2x.png@1);
     background-size: 146px 20px;
   }
 
   .radio-item input.radio + .radio-label:before,
   .checkbox-item input.checkbox + .checkbox-label:before,
   .form-control-dropdown-button:before {
-    background-image: url(/img/rc_icons_2x.png?1);
+    background-image: url(../img/rc_icons_2x.png@1);
     background-size: 20px 152px;
   }
 
   .form-control-dropdown.has-items:before {
-    background-image: url(/img/rc_icons_2x.png?1);
+    background-image: url(../img/rc_icons_2x.png@1);
     background-size: 20px 152px;
   }
   .td_screenshot_macos {
-    background-image: url(https://osx.telegram.org/updates/site/artboard_2x.png);
+    background-image: url(../../osx.telegram.org/updates/site/artboard_2x.png);
     background-size: 420px 280px;
     height: 280px;
   }
@@ -4096,7 +4096,7 @@ i.tl_telegram_share_icon {
 @media only screen and (-webkit-min-device-pixel-ratio: 2.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 2.5), only screen and (min-device-pixel-ratio: 2.5) {
 
   .tlb_blog_logo {
-    background-image: url(/img/blog/BlogLogo3x.png);
+    background-image: url(../img/blog/BlogLogo3x.png);
     background-size: 146px 20px;
   }
 }
@@ -4525,25 +4525,25 @@ i.tl_telegram_share_icon {
   .tgme_icon_user {
     width: 30px;
     height: 30px;
-    background: url(/img/tgme/Mobile1x.png?1) -2px -31px no-repeat;
+    background: url(../img/tgme/Mobile1x.png@1) -2px -31px no-repeat;
     background-size: 33px 148px;
   }
   .tgme_icon_group {
     width: 32px;
     height: 18px;
-    background: url(/img/tgme/Mobile1x.png?1) 0 0 no-repeat;
+    background: url(../img/tgme/Mobile1x.png@1) 0 0 no-repeat;
     background-size: 33px 148px;
   }
   .tgme_icon_stickers {
     width: 28px;
     height: 28px;
-    background: url(/img/tgme/Mobile1x.png?1) -2px -70px no-repeat;
+    background: url(../img/tgme/Mobile1x.png@1) -2px -70px no-repeat;
     background-size: 33px 148px;
   }
   .tgme_icon_share {
     width: 31px;
     height: 17px;
-    background: url(/img/tgme/Mobile1x.png?1) -1px -108px no-repeat;
+    background: url(../img/tgme/Mobile1x.png@1) -1px -108px no-repeat;
     background-size: 33px 148px;
   }
 
@@ -4621,6 +4621,6 @@ i.tl_telegram_share_icon {
   .tgme_icon_group,
   .tgme_icon_stickers,
   .tgme_icon_share {
-    background-image: url(/img/tgme/Mobile2x.png?1);
+    background-image: url(../img/tgme/Mobile2x.png@1);
   }
 }
