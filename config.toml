@@ -1,35 +1,40 @@
 baseURL = "https://wawan.pro/"
 languageCode = "ru-RU"
-title = "wawan.pro"
-theme = "coder"
+title = "Vladimir Kochergin"
+theme = "hello-friend-ng"
+googleAnalytics = "UA-117766088-1"
 
 [params] # theme parameters
-    author = "Vladimir Kochergin"
-    info = "Full-stack web-developer in PHP and Go. Freelancer"
-    description = "personal blog"
+    #homeSubtitle = "Vladimir Kochergin"
+    homeSubtitle = "Full-stack web-developer in PHP and Go. Freelancer"
     keywords = "blog,developer,programmer,upwork,personal,php,go,golang,freelance"
     avatarurl = "https://avatars3.githubusercontent.com/u/1741716"
 
     # wether you want to hide copyright and credits in the footer
     hideCredits = false
     hideCopyright = false
-    
-# Social links
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 4
-    url = "https://github.com/wawan93/"
-[[params.social]]
-    name = "Twitter"
-    weight = 2
-    icon = "fab fa-twitter fa-2x"
-    url = "https://twitter.com/wawan_2030/"
-[[params.social]]
-    name = "Telegram"
-    weight = 1
-    icon = "fab fa-telegram fa-2x"
-    url = "https://wawan.pro/telegram"
+    defaultTheme = "dark"
+
+    [params.logo]
+        logoText     = "wawan.pro"
+        logoHomeLink = "/"
+    [params.portrait]
+        path = "https://avatars3.githubusercontent.com/u/1741716"
+        alt = "Portrait"
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/wawan93/"
+    [[params.social]]
+        name = "twitter"
+        url = "https://twitter.com/wawan_2030/"
+    [[params.social]]
+        name = "telegram"
+        url = "https://wawan.pro/telegram"
+
+[taxonomies]
+    category = "posts"
+    tag      = "tags"
+    series   = "series"
 
 # Menu links
 [[menu.main]]
