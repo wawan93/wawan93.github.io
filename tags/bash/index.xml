@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bash on Vladimir Kochergin</title>
+    <title>Bash on Vladimir Kochergin</title>
     <link>https://wawan.pro/tags/bash/</link>
-    <description>Recent content in bash on Vladimir Kochergin</description>
+    <description>Recent content in Bash on Vladimir Kochergin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Tue, 09 Jun 2020 20:30:17 +0300</lastBuildDate><atom:link href="https://wawan.pro/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jun 2020 20:30:17 +0300</lastBuildDate>
+    <atom:link href="https://wawan.pro/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Личная ссылка на телеграм</title>
       <link>https://wawan.pro/posts/telegram-link/</link>
       <pubDate>Tue, 09 Jun 2020 20:30:17 +0300</pubDate>
-      
       <guid>https://wawan.pro/posts/telegram-link/</guid>
-      <description>Как сделать себе ссылку на свой телеграм, чтобы она открывалась в России
-Например, моя ссылка https://wawan.pro/tg в России открывается, на ней загружаются скрипты, стили и картинки. Как это сделать?
-Создайте в корневой директории сайта папочку tg, внутри запустите wget:
-wget \  --page-requisites \  --adjust-extension \  --span-hosts \  --convert-links \  --restrict-file-names=windows \  --domains telesco.pe,t.me,telegram.org \  --no-parent \ https://t.me/wawan2030 Теперь в вашей директории должно быть что-то типа этого:</description>
+      <description>Как сделать себе ссылку на свой телеграм, чтобы она открывалась в России&#xA;Например, моя ссылка https://wawan.pro/tg в России открывается, на ней загружаются скрипты, стили и картинки. Как это сделать?&#xA;Создайте в корневой директории сайта папочку tg, внутри запустите wget:&#xA;wget \ --page-requisites \ --adjust-extension \ --span-hosts \ --convert-links \ --restrict-file-names=windows \ --domains telesco.pe,t.me,telegram.org \ --no-parent \ https://t.me/wawan2030 Теперь в вашей директории должно быть что-то типа этого:&#xA;. ├── cdn4.telesco.pe │ └── file ├── t.</description>
     </item>
-    
   </channel>
 </rss>
